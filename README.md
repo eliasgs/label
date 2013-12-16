@@ -1,4 +1,4 @@
-# label
+# label [![Build Status](https://travis-ci.org/eliasgs/label.png?branch=master)](https://travis-ci.org/eliasgs/label)
 Inspired by Heroku, ``label`` generates random two word identifiers.
 
 ## Install
