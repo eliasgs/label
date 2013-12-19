@@ -1,9 +1,9 @@
 exports.generate = generate;
 
-function generate(dontCapitalize, delimiter) {
+function generate(capitalize, delimiter) {
   var delimiter = delimiter || ' '
   var result = random(adjective) + delimiter + random(noun);
-  return (dontCapitalize)?result:capitalize(result, delimiter);
+  return (capitalize)?capitalizeResult(result, delimiter):result;
 }
 
 function random(list){
@@ -11,7 +11,7 @@ function random(list){
   return list[word];
 }
 
-function capitalize(sentence, delimiter) {
+function capitalizeResult(sentence, delimiter) {
   var delimiter = delimiter || ' ';
   var words = sentence.split(delimiter);
   return words.map(function (word) {
