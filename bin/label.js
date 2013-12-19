@@ -22,8 +22,8 @@ if (args.version) {
   console.log(pkg.version);
 } else if (args.help) {
   var message = [
-    'usage: label [--delimiter|-b <delimiter>]',
-    '             [--capitalize|-c] [--no-capitalize]'
+    'usage: label [--delimiter|-b <delimiter>] [--capitalize|-c]',
+    '             [--help|-h] [--version|-v]'
   ].join('\n');
   console.log(message);
 } else {
