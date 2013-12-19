@@ -27,5 +27,8 @@
   "homepage": "https://github.com/eliasgs/label",
   "devDependencies": {
     "mocha": "~1.15.1"
+  },
+  "dependencies": {
+    "nopt": "~2.1.2"
   }
 }
