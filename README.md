@@ -7,6 +7,13 @@ Inspired by Heroku, ``label`` generates random two word identifiers.
 npm install label
 ```
 
+## CLI
+
+```bash
+usage: label [--delimiter|-d <delimiter>] [--capitalize|-c]
+             [--help|-h] [--version|-v]
+```
+
 ## Usage examples
 
 ```javascript
