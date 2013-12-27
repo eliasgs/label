@@ -20,12 +20,12 @@ usage: label [--delimiter|-d <delimiter>] [--capitalize|-c]
 var label = require('label');
 
 var title = label.generate();
-console.log(title); // Light Beard
+console.log(title); // light beard
 
 var random = label.generate(true);
-console.log(random); // liquid stream
+console.log(random); // Liquid Stream
 
-var uri = 'https://' + label.generate(true, '-') + '.example.com/';
+var uri = 'https://' + label.generate(false, '-') + '.example.com/';
 console.log(uri); // https://intimate-rabbit.example.com/
 ```
 
