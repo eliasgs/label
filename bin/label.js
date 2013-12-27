@@ -22,7 +22,7 @@ if (args.version) {
   console.log(pkg.version);
 } else if (args.help) {
   var message = [
-    'usage: label [--delimiter|-b <delimiter>] [--capitalize|-c]',
+    'usage: label [--delimiter|-d <delimiter>] [--capitalize|-c]',
     '             [--help|-h] [--version|-v]'
   ].join('\n');
   console.log(message);
