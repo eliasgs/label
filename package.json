@@ -1,6 +1,6 @@
 {
   "name": "label",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Generate easy to remember random identifiers",
   "main": "index.js",
   "bin": {
